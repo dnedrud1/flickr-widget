@@ -1,0 +1,5 @@
+<%= form_tag("/photos", method: "get") do %>
+  <%= label_tag(:flickr_id, "Enter User ID") %>
+  <%= text_field_tag(:flickr_id) %>
+  <%= submit_tag("Search") %>
+<% end %>
